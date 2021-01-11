@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 def run():
-    word = input('Introduce la palabra: ')
+    word = str(input('Introduce la palabra: '))
     if word == word[::-1]:
         print("La palabra es un políndromo.")
     else:
